@@ -23,6 +23,7 @@ async def on_ready():
     print('Username: ' + client.user.name)
     print('User ID: ' + client.user.id)
     print('=====================')
+    print('Big brother is watching.')
     print(info + str(len(users)) + " user(s) on the watch list.")
 
 
